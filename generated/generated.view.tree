@@ -1,11 +1,11 @@
-$link_link $mol_view
+$generated_link $mol_view
 	sub /
 		<= Link $mol_string
 			hint \Введите ссылку
 			value?val <=> link?val \
 		<= JustButton $mol_button_copy
 			enabled <= link
-			text <= urlLink
+			text <= urlLink \
 			sub /
 				<= title \Сохранить ссылку
 				<= Icon $mol_icon_content_copy
