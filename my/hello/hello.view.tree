@@ -1,0 +1,9 @@
+$my_hello $mol_view
+	sub /
+		<= Name $mol_string
+			hint \Name
+			value?val <=> name?val \
+		<= message \
+		<= message \
+		<= Submit $mol_button_minor
+			title <= submit_label @ \Submit

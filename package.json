@@ -30,6 +30,9 @@
     }
   },
   "dependencies": {
-    "mam": "*"
+    "@types/node-fetch": "^2.5.12",
+    "mam": "*",
+    "node-fetch": "^2.6.1",
+    "undici": "^5.14.0"
   }
 }
